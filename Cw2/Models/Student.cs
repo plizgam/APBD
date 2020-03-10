@@ -4,6 +4,8 @@ using System.Text;
 
 namespace Cw2
 {
+
+    [Serializable]
     public class Student
     {
         public String index { get; set; }
@@ -15,6 +17,8 @@ namespace Cw2
         public String fatherName { get; set; }
         public String studyName { get; set; }
         public String studyMode { get; set; }
+        
+
 
     }
 }

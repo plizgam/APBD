@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Cw2
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
                 var path =  $@"{GetApplicationRoot()}\Data\dane.csv";
-                Console.WriteLine(path);
 
                 var lines = File.ReadLines(path);
                 var hash = new HashSet<Student>(new OwnComparer());
@@ -23,28 +22,33 @@ namespace Cw2
                 {
                     String[] data = line.Split(",");
 
-
-                    var student = new Student()
+                    bool nullElement = false;
+                    foreach (var item in data)
                     {
-                        firstName = data[0],
-                        lastName = data[1],
-                        studyName = data[2],
-                        studyMode = data[3],
-                        index = data[4],
-                        birthDate = DateTime.Parse(data[5])
-                    };
-
-
-                    if (!hash.Add(student))
-                    {
-                        Console.WriteLine("Lol");
-                        await WriteToLog($"Błąd przy dodowaniu studenta. Dane: {line}");
+                        if (String.IsNullOrWhiteSpace(item))
+                            nullElement = true;
                     }
-                    
+
+                    if (!nullElement)
+                    {
+                        var student = new Student()
+                        {
+                            firstName = data[0],
+                            lastName = data[1],
+                            studyName = data[2],
+                            studyMode = data[3],
+                            index = data[4],
+                            birthDate = DateTime.Parse(data[5])
+                        };
+
+
+                        if (!hash.Add(student) || nullElement)
+                        {
+                            WriteToLog($"Błąd przy dodowaniu studenta. Dane: {line}");
+                        }
+                    }        
                 }
 
-                var today = DateTime.UtcNow;
-                Console.WriteLine(today);
             }
             catch(ArgumentException e)
             {
@@ -56,19 +60,29 @@ namespace Cw2
                 string error = "Plik nazwa nie istnieje";
                  throw new FileNotFoundException(WriteToLog(error).ToString(), e);
             }
+
+
+            //SaveToXML(students, GetApplicationRoot() + "");
+
+        }
+
+        public static void SaveToXML(HashSet<Student> students, string path)
+        {
+            FileStream writer = new FileStream(@"data.xml", FileMode.Create);
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Student>),
+                                       new XmlRootAttribute("uczelnia"));
+            serializer.Serialize(writer, students);
+            serializer.Serialize(writer, students);
         }
 
 
-        public static async Task<string> WriteToLog(string message)
+        public static string WriteToLog(string message)
         {
-            using(var file = new FileStream($@"{GetApplicationRoot()}\Logs\log.txt", FileMode.OpenOrCreate , FileAccess.Write))
-            {
-               
+            using(var file = new FileStream($@"{GetApplicationRoot()}\Logs\log.txt", FileMode.Append , FileAccess.Write))
+            {             
                 var streamWriter = new StreamWriter(file);
-                await streamWriter.WriteLineAsync($"{message} | {DateTime.UtcNow}");
+                streamWriter.WriteLine($"{message} | {DateTime.UtcNow}");           
                 streamWriter.Close();
-
-
             }
             return message;
         }
