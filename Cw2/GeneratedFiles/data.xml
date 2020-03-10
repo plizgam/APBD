@@ -1,0 +1,1581 @@
+<?xml version="1.0"?>
+<uczelnia author="Miłosz Pliżga">
+  <students>
+    <Student>
+      <index>459</index>
+      <firstName>Paweł</firstName>
+      <lastName>Nowak1</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4816</index>
+      <firstName>Kaja</firstName>
+      <lastName>Jankowski29</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4749</index>
+      <firstName>Justyna</firstName>
+      <lastName>Kowalski30</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4432</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak31</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4757</index>
+      <firstName>Kamil</firstName>
+      <lastName>Brzęczyszczykiewicz32</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4655</index>
+      <firstName>Marta</firstName>
+      <lastName>Maciejewski33</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4398</index>
+      <firstName>Szymon</firstName>
+      <lastName>Jankowski34</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4799</index>
+      <firstName>Joanna</firstName>
+      <lastName>Brzęczyszczykiewicz37</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4626</index>
+      <firstName>Irena</firstName>
+      <lastName>Maciejewski38</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4446</index>
+      <firstName>Adam</firstName>
+      <lastName>Jankowski39</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4396</index>
+      <firstName>Kacper</firstName>
+      <lastName>Kowalski40</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4902</index>
+      <firstName>Paweł</firstName>
+      <lastName>Nowak41</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4434</index>
+      <firstName>Aleksandra</firstName>
+      <lastName>Brzęczyszczykiewicz42</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów zaoczne</studyName>
+      <studyMode>Zaoczne</studyMode>
+    </Student>
+    <Student>
+      <index>4517</index>
+      <firstName>Katarzyna</firstName>
+      <lastName>Maciejewski43</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4705</index>
+      <firstName>Grzegorz</firstName>
+      <lastName>Jankowski44</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4661</index>
+      <firstName>Adrian</firstName>
+      <lastName>Kowalski45</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4842</index>
+      <firstName>Jan</firstName>
+      <lastName>Nowak46</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4709</index>
+      <firstName>Jakub</firstName>
+      <lastName>Brzęczyszczykiewicz47</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4792</index>
+      <firstName>Iga</firstName>
+      <lastName>Maciejewski48</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4789</index>
+      <firstName>Jakub</firstName>
+      <lastName>Jankowski49</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4708</index>
+      <firstName>Maria</firstName>
+      <lastName>Kowalski50</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4404</index>
+      <firstName>Artur</firstName>
+      <lastName>Nowak51</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4513</index>
+      <firstName>Sabina</firstName>
+      <lastName>Brzęczyszczykiewicz52</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4442</index>
+      <firstName>Łukasz</firstName>
+      <lastName>Maciejewski53</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4732</index>
+      <firstName>Marcin</firstName>
+      <lastName>Jankowski54</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4506</index>
+      <firstName>Rafał</firstName>
+      <lastName>Kowalski55</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4649</index>
+      <firstName>Jan</firstName>
+      <lastName>Nowak56</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4755</index>
+      <firstName>Jakub</firstName>
+      <lastName>Brzęczyszczykiewicz57</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4890</index>
+      <firstName>Julia</firstName>
+      <lastName>Maciejewski58</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4594</index>
+      <firstName>Karol</firstName>
+      <lastName>Jankowski59</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4925</index>
+      <firstName>Katarzyna</firstName>
+      <lastName>Nowak61</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4748</index>
+      <firstName>Marzena</firstName>
+      <lastName>Brzęczyszczykiewicz62</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4720</index>
+      <firstName>Filip</firstName>
+      <lastName>Maciejewski63</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4423</index>
+      <firstName>Karolina</firstName>
+      <lastName>Jankowski64</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4299</index>
+      <firstName>Mateusz</firstName>
+      <lastName>Kowalski65</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4629</index>
+      <firstName>Magdalena</firstName>
+      <lastName>Nowak66</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4889</index>
+      <firstName>Igor</firstName>
+      <lastName>Brzęczyszczykiewicz67</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4831</index>
+      <firstName>Bogumiła</firstName>
+      <lastName>Maciejewski68</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4478</index>
+      <firstName>Paweł</firstName>
+      <lastName>Jankowski69</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4718</index>
+      <firstName>Marta</firstName>
+      <lastName>Kowalski70</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4741</index>
+      <firstName>Kamil</firstName>
+      <lastName>Nowak71</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4444</index>
+      <firstName>Beata</firstName>
+      <lastName>Brzęczyszczykiewicz72</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4552</index>
+      <firstName>Kacper</firstName>
+      <lastName>Maciejewski73</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4462</index>
+      <firstName>Gustaw</firstName>
+      <lastName>Jankowski74</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4414</index>
+      <firstName>Arkadiusz</firstName>
+      <lastName>Kowalski75</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4508</index>
+      <firstName>Sonia</firstName>
+      <lastName>Nowak76</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4800</index>
+      <firstName>Sandra</firstName>
+      <lastName>Brzęczyszczykiewicz77</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4429</index>
+      <firstName>Małgorzata</firstName>
+      <lastName>Maciejewski78</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4927</index>
+      <firstName>Kiyomi</firstName>
+      <lastName>Jankowski79</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4502</index>
+      <firstName>Konrad</firstName>
+      <lastName>Kowalski80</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4744</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Nowak81</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4477</index>
+      <firstName>Maciej</firstName>
+      <lastName>Brzęczyszczykiewicz82</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4736</index>
+      <firstName>Katarzyna</firstName>
+      <lastName>Maciejewski83</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4849</index>
+      <firstName>Klaudia</firstName>
+      <lastName>Jankowski84</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4819</index>
+      <firstName>Michał</firstName>
+      <lastName>Kowalski85</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4445</index>
+      <firstName>Sebastian</firstName>
+      <lastName>Nowak86</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4707</index>
+      <firstName>Kamil</firstName>
+      <lastName>Brzęczyszczykiewicz87</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4764</index>
+      <firstName>Jagna</firstName>
+      <lastName>Maciejewski88</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4722</index>
+      <firstName>Izabela</firstName>
+      <lastName>Jankowski89</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4452</index>
+      <firstName>Mateusz</firstName>
+      <lastName>Kowalski90</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4545</index>
+      <firstName>Daria</firstName>
+      <lastName>Nowak91</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4771</index>
+      <firstName>Agnieszka</firstName>
+      <lastName>Brzęczyszczykiewicz92</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4706</index>
+      <firstName>Iwona</firstName>
+      <lastName>Maciejewski93</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4772</index>
+      <firstName>Aleksandra</firstName>
+      <lastName>Jankowski94</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>3374</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Kowalski95</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4756</index>
+      <firstName>Jolanta</firstName>
+      <lastName>Nowak96</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4457</index>
+      <firstName>Aleksandra</firstName>
+      <lastName>Brzęczyszczykiewicz97</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Sztuka Nowych Mediów dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4412</index>
+      <firstName>Paweł</firstName>
+      <lastName>Brzęczyszczykiewicz252</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4525</index>
+      <firstName>Dariusz</firstName>
+      <lastName>Maciejewski253</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4836</index>
+      <firstName>Kamil</firstName>
+      <lastName>Jankowski254</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4788</index>
+      <firstName>Łukasz</firstName>
+      <lastName>Kowalski255</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4474</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Nowak256</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4454</index>
+      <firstName>Michał</firstName>
+      <lastName>Brzęczyszczykiewicz257</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4443</index>
+      <firstName>Patryk</firstName>
+      <lastName>Maciejewski258</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4851</index>
+      <firstName>Bhagirath</firstName>
+      <lastName>Jankowski259</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4579</index>
+      <firstName>Michał</firstName>
+      <lastName>Kowalski260</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4461</index>
+      <firstName>Marek</firstName>
+      <lastName>Nowak261</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4747</index>
+      <firstName>Przemysław</firstName>
+      <lastName>Brzęczyszczykiewicz262</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4762</index>
+      <firstName>Marcin</firstName>
+      <lastName>Maciejewski263</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4413</index>
+      <firstName>Zuzanna</firstName>
+      <lastName>Jankowski264</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Zarządzanie informacją dzienne (kierunek Zarządzanie)</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4490</index>
+      <firstName>Michał</firstName>
+      <lastName>Kowalski265</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4554</index>
+      <firstName>Wojciech</firstName>
+      <lastName>Nowak266</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4340</index>
+      <firstName>Enkh-Amgalan</firstName>
+      <lastName>Brzęczyszczykiewicz267</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4586</index>
+      <firstName>Adrian</firstName>
+      <lastName>Maciejewski268</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4798</index>
+      <firstName>Bartosz</firstName>
+      <lastName>Jankowski269</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4711</index>
+      <firstName>Jakub</firstName>
+      <lastName>Kowalski270</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4056</index>
+      <firstName>Sebastian</firstName>
+      <lastName>Nowak271</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4549</index>
+      <firstName>Aleksandra</firstName>
+      <lastName>Brzęczyszczykiewicz272</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4618</index>
+      <firstName>Piotr</firstName>
+      <lastName>Maciejewski273</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4530</index>
+      <firstName>Adrian</firstName>
+      <lastName>Jankowski274</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4607</index>
+      <firstName>Andrzej</firstName>
+      <lastName>Kowalski275</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4459</index>
+      <firstName>Wojciech</firstName>
+      <lastName>Nowak276</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4501</index>
+      <firstName>Monika</firstName>
+      <lastName>Brzęczyszczykiewicz277</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4858</index>
+      <firstName>Jan</firstName>
+      <lastName>Maciejewski278</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4578</index>
+      <firstName>Paweł</firstName>
+      <lastName>Jankowski279</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4555</index>
+      <firstName>Bartosz</firstName>
+      <lastName>Kowalski280</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4589</index>
+      <firstName>Agata</firstName>
+      <lastName>Nowak281</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4945</index>
+      <firstName>Matthew</firstName>
+      <lastName>Brzęczyszczykiewicz282</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4556</index>
+      <firstName>Piotr</firstName>
+      <lastName>Maciejewski283</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4504</index>
+      <firstName>Grzegorz</firstName>
+      <lastName>Jankowski284</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4505</index>
+      <firstName>Sebastian</firstName>
+      <lastName>Kowalski285</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4105</index>
+      <firstName>Filip</firstName>
+      <lastName>Nowak286</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4487</index>
+      <firstName>Jakub</firstName>
+      <lastName>Brzęczyszczykiewicz287</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4498</index>
+      <firstName>Artur</firstName>
+      <lastName>Maciejewski288</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4471</index>
+      <firstName>Piotr</firstName>
+      <lastName>Jankowski289</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4855</index>
+      <firstName>Małgorzata</firstName>
+      <lastName>Kowalski290</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4752</index>
+      <firstName>Arkadiusz</firstName>
+      <lastName>Nowak291</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4770</index>
+      <firstName>Jakub</firstName>
+      <lastName>Brzęczyszczykiewicz292</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4476</index>
+      <firstName>Adam</firstName>
+      <lastName>Maciejewski293</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4724</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Jankowski294</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4754</index>
+      <firstName>Piotr</firstName>
+      <lastName>Kowalski295</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4769</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak296</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4499</index>
+      <firstName>Maciej</firstName>
+      <lastName>Brzęczyszczykiewicz297</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4733</index>
+      <firstName>Jakub</firstName>
+      <lastName>Maciejewski298</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4584</index>
+      <firstName>Kasper</firstName>
+      <lastName>Jankowski299</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4514</index>
+      <firstName>Krzysztof</firstName>
+      <lastName>Kowalski300</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4448</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak301</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4664</index>
+      <firstName>Paweł</firstName>
+      <lastName>Brzęczyszczykiewicz302</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4935</index>
+      <firstName>Katarzyna</firstName>
+      <lastName>Maciejewski303</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4485</index>
+      <firstName>Konrad</firstName>
+      <lastName>Jankowski304</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4456</index>
+      <firstName>Piotr</firstName>
+      <lastName>Kowalski305</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4107</index>
+      <firstName>Jan</firstName>
+      <lastName>Nowak306</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4482</index>
+      <firstName>Radosław</firstName>
+      <lastName>Brzęczyszczykiewicz307</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4817</index>
+      <firstName>Kacper</firstName>
+      <lastName>Maciejewski308</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4765</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Jankowski309</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4387</index>
+      <firstName>Lech</firstName>
+      <lastName>Kowalski310</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4509</index>
+      <firstName>Błażej</firstName>
+      <lastName>Nowak311</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4609</index>
+      <firstName>Karol</firstName>
+      <lastName>Brzęczyszczykiewicz312</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4481</index>
+      <firstName>Paweł</firstName>
+      <lastName>Maciejewski313</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4512</index>
+      <firstName>Wojciech</firstName>
+      <lastName>Jankowski314</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4782</index>
+      <firstName>Maciej</firstName>
+      <lastName>Kowalski315</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4492</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak316</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4531</index>
+      <firstName>Piotr</firstName>
+      <lastName>Brzęczyszczykiewicz317</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4406</index>
+      <firstName>Marcin</firstName>
+      <lastName>Maciejewski318</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4394</index>
+      <firstName>Krzysztof</firstName>
+      <lastName>Jankowski319</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4627</index>
+      <firstName>Michał</firstName>
+      <lastName>Kowalski320</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka internetowe magisterskie</studyName>
+      <studyMode>Internetowe</studyMode>
+    </Student>
+    <Student>
+      <index>4830</index>
+      <firstName>Krzysztof</firstName>
+      <lastName>Nowak321</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4486</index>
+      <firstName>Adrian</firstName>
+      <lastName>Brzęczyszczykiewicz322</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4447</index>
+      <firstName>Mariusz</firstName>
+      <lastName>Maciejewski323</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4580</index>
+      <firstName>Bartosz</firstName>
+      <lastName>Jankowski324</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4284</index>
+      <firstName>Piotr</firstName>
+      <lastName>Kowalski325</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4440</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak326</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4410</index>
+      <firstName>Aleksander</firstName>
+      <lastName>Brzęczyszczykiewicz327</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4615</index>
+      <firstName>Andrzej</firstName>
+      <lastName>Maciejewski328</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4796</index>
+      <firstName>Paweł</firstName>
+      <lastName>Jankowski329</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4458</index>
+      <firstName>Paweł</firstName>
+      <lastName>Kowalski330</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4942</index>
+      <firstName>Nakul</firstName>
+      <lastName>Brzęczyszczykiewicz332</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4614</index>
+      <firstName>Tomoto</firstName>
+      <lastName>Maciejewski333</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4822</index>
+      <firstName>Krzysztof</firstName>
+      <lastName>Jankowski334</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4433</index>
+      <firstName>Adam</firstName>
+      <lastName>Kowalski335</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4557</index>
+      <firstName>Jan</firstName>
+      <lastName>Nowak336</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4599</index>
+      <firstName>Gabriel</firstName>
+      <lastName>Brzęczyszczykiewicz337</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4419</index>
+      <firstName>Michał</firstName>
+      <lastName>Maciejewski338</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4828</index>
+      <firstName>Michał</firstName>
+      <lastName>Jankowski339</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4460</index>
+      <firstName>Kacper</firstName>
+      <lastName>Kowalski340</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4058</index>
+      <firstName>Adrian</firstName>
+      <lastName>Nowak341</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4524</index>
+      <firstName>Michał</firstName>
+      <lastName>Brzęczyszczykiewicz342</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4588</index>
+      <firstName>Katarzyna</firstName>
+      <lastName>Maciejewski343</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4743</index>
+      <firstName>Piotr</firstName>
+      <lastName>Jankowski344</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4721</index>
+      <firstName>Karol</firstName>
+      <lastName>Kowalski345</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4544</index>
+      <firstName>Radosław</firstName>
+      <lastName>Nowak346</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4426</index>
+      <firstName>Marco</firstName>
+      <lastName>Brzęczyszczykiewicz347</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4532</index>
+      <firstName>Jagoda</firstName>
+      <lastName>Maciejewski348</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4480</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Jankowski349</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4441</index>
+      <firstName>Przemysław</firstName>
+      <lastName>Kowalski350</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4523</index>
+      <firstName>Michał</firstName>
+      <lastName>Nowak351</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4766</index>
+      <firstName>Bartosz</firstName>
+      <lastName>Brzęczyszczykiewicz352</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4941</index>
+      <firstName>Achut</firstName>
+      <lastName>Maciejewski353</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4647</index>
+      <firstName>Aleksander</firstName>
+      <lastName>Jankowski354</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4500</index>
+      <firstName>Jan</firstName>
+      <lastName>Kowalski355</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4422</index>
+      <firstName>Yuriy</firstName>
+      <lastName>Nowak356</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4660</index>
+      <firstName>Michał</firstName>
+      <lastName>Brzęczyszczykiewicz357</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4521</index>
+      <firstName>Michał</firstName>
+      <lastName>Maciejewski358</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4585</index>
+      <firstName>Piotr</firstName>
+      <lastName>Jankowski359</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>3081</index>
+      <firstName>Mikołaj</firstName>
+      <lastName>Kowalski360</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4710</index>
+      <firstName>Dariusz</firstName>
+      <lastName>Nowak361</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4385</index>
+      <firstName>Anna</firstName>
+      <lastName>Brzęczyszczykiewicz362</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4529</index>
+      <firstName>Piotr</firstName>
+      <lastName>Maciejewski363</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4522</index>
+      <firstName>Michał</firstName>
+      <lastName>Jankowski364</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka zaoczne</studyName>
+      <studyMode>Zaoczne</studyMode>
+    </Student>
+    <Student>
+      <index>4827</index>
+      <firstName>Dawid</firstName>
+      <lastName>Kowalski365</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4518</index>
+      <firstName>Karol</firstName>
+      <lastName>Nowak366</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4384</index>
+      <firstName>Adrian</firstName>
+      <lastName>Brzęczyszczykiewicz367</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4496</index>
+      <firstName>Łukasz</firstName>
+      <lastName>Maciejewski368</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4750</index>
+      <firstName>Adam</firstName>
+      <lastName>Jankowski369</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4111</index>
+      <firstName>Arkadiusz</firstName>
+      <lastName>Kowalski370</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4484</index>
+      <firstName>Jakub</firstName>
+      <lastName>Nowak371</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4483</index>
+      <firstName>Michał</firstName>
+      <lastName>Brzęczyszczykiewicz372</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4751</index>
+      <firstName>Tomasz</firstName>
+      <lastName>Maciejewski373</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4528</index>
+      <firstName>Radosław</firstName>
+      <lastName>Jankowski374</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4533</index>
+      <firstName>Paweł</firstName>
+      <lastName>Kowalski375</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4814</index>
+      <firstName>Przemysław</firstName>
+      <lastName>Nowak376</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4753</index>
+      <firstName>Adam</firstName>
+      <lastName>Brzęczyszczykiewicz377</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4520</index>
+      <firstName>Dawid</firstName>
+      <lastName>Maciejewski378</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4837</index>
+      <firstName>Adrian</firstName>
+      <lastName>Jankowski379</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4611</index>
+      <firstName>Sławomir</firstName>
+      <lastName>Kowalski380</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4616</index>
+      <firstName>Rafał</firstName>
+      <lastName>Nowak381</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+    <Student>
+      <index>4603</index>
+      <firstName>Agnieszka</firstName>
+      <lastName>Brzęczyszczykiewicz382</lastName>
+      <birthDate>2000-02-12T00:00:00</birthDate>
+      <studyName>Informatyka dzienne po angielsku</studyName>
+      <studyMode>Dzienne</studyMode>
+    </Student>
+  </students>
+</uczelnia>

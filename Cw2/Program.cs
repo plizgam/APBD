@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace Cw2
@@ -49,7 +50,15 @@ namespace Cw2
                     }        
                 }
 
-                SaveToXML(hash, GetApplicationRoot() + @"\GeneratedFiles\");
+                var studentsModel = new Models.StudentArray
+                {
+                    students = hash,
+                    author = "Miłosz Pliżga"
+                    
+                };
+
+
+                SaveToXML(studentsModel, GetApplicationRoot() + @"\GeneratedFiles\");
 
             }
             catch(ArgumentException e)
@@ -64,12 +73,16 @@ namespace Cw2
             }
         }
 
-        public static void SaveToXML(HashSet<Student> students, string path)
+        public static void SaveToXML(Models.StudentArray students, string path)
         {
-            FileStream writer = new FileStream(@"data.xml", FileMode.Create);
-            XmlSerializer serializer = new XmlSerializer(typeof(HashSet<Student>),
-                                       new XmlRootAttribute("uczelnia"));
-            serializer.Serialize(writer, students);
+            var writer = new FileStream(path + "data.xml", FileMode.Create);
+            var names = new XmlSerializerNamespaces();
+            names.Add("", "");
+            var serializer = new XmlSerializer(typeof(Models.StudentArray),
+                                       new XmlRootAttribute("uczelnia"));     
+            serializer.Serialize(writer, students, names);
+
+            writer.Close();
         }
 
 
