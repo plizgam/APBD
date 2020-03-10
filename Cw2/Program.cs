@@ -15,7 +15,7 @@ namespace Cw2
                 var path =  $@"{GetApplicationRoot()}\Data\dane.csv";
 
                 var lines = File.ReadLines(path);
-                var hash = new HashSet<Student>(new OwnComparer());
+                HashSet<Student> hash = new HashSet<Student>(new OwnComparer());
 
 
                 foreach (var line in lines)
@@ -49,6 +49,8 @@ namespace Cw2
                     }        
                 }
 
+                SaveToXML(hash, GetApplicationRoot() + @"\GeneratedFiles\");
+
             }
             catch(ArgumentException e)
             {
@@ -60,18 +62,13 @@ namespace Cw2
                 string error = "Plik nazwa nie istnieje";
                  throw new FileNotFoundException(WriteToLog(error).ToString(), e);
             }
-
-
-            //SaveToXML(students, GetApplicationRoot() + "");
-
         }
 
         public static void SaveToXML(HashSet<Student> students, string path)
         {
             FileStream writer = new FileStream(@"data.xml", FileMode.Create);
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Student>),
+            XmlSerializer serializer = new XmlSerializer(typeof(HashSet<Student>),
                                        new XmlRootAttribute("uczelnia"));
-            serializer.Serialize(writer, students);
             serializer.Serialize(writer, students);
         }
 
