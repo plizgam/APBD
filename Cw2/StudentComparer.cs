@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Cw2
 {
-    class OwnComparer : IEqualityComparer<Student>
+    class StudentComparer : IEqualityComparer<Student>
     {
         public new bool Equals(Student x, Student y)
         {
@@ -19,7 +19,7 @@ namespace Cw2
         {
                 return StringComparer
                         .InvariantCultureIgnoreCase
-                        .GetHashCode($"{obj.firstName} {obj.lastName} {obj.index} ");
+                        .GetHashCode($"{obj.firstName} {obj.lastName} {obj.index}");
         }
     }
 }
