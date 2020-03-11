@@ -12,6 +12,9 @@ namespace Cw2.Models
         [XmlAttribute]
         public string author { get; set; }
 
+        [XmlAttribute]
+        public string createdAt { get; set; }
+
 
         public HashSet<Student> students;
     }

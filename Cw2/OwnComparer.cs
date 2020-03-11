@@ -11,8 +11,8 @@ namespace Cw2
         {
             return StringComparer
                 .InvariantCultureIgnoreCase
-                .Equals($"{ x.firstName} { x.lastName} {x.birthDate}",
-                $"{ y.firstName} { y.lastName} {y.birthDate}");
+                .Equals($"{ x.firstName} { x.lastName} {x.birthdate}",
+                $"{ y.firstName} { y.lastName} {y.birthdate}");
         }
 
         public int GetHashCode(Student obj)

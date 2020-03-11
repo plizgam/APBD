@@ -39,7 +39,7 @@ namespace Cw2
                             studyName = data[2],
                             studyMode = data[3],
                             index = data[4],
-                            birthDate = DateTime.Parse(data[5])
+                            birthdate = DateTime.Parse(data[5]).ToShortDateString()
                         };
 
 
@@ -53,8 +53,8 @@ namespace Cw2
                 var studentsModel = new Models.StudentArray
                 {
                     students = hash,
-                    author = "Miłosz Pliżga"
-                    
+                    author = "Miłosz Pliżga",
+                    createdAt = DateTime.Today.ToShortDateString()
                 };
 
 
