@@ -5,11 +5,9 @@ using System.Threading.Tasks;
 
 namespace Cw3.Models
 {
-    public class Enrollment
+    public class EnrollmentRequest
     {
-        public int IdEnrollment { get; set; }
+        public string Studies { get; set; }
         public int Semester { get; set; }
-        public int IdStudy { get; set; }
-        public DateTime StartDate { get; set; }
     }
 }

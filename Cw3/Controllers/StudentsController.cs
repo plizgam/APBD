@@ -47,7 +47,7 @@ namespace Cw3.Controllers
                         FirstName = dr["FirstName"].ToString(),
                         LastName = dr["LastName"].ToString(),
                         BirtDate = Convert.ToDateTime(dr["BirthDate"].ToString()),
-                        StudyName = dr["Name"].ToString(),
+                        Studies = dr["Name"].ToString(),
                         Semester = Convert.ToInt32(dr["Semester"].ToString())
                     });
                 }
@@ -77,7 +77,6 @@ namespace Cw3.Controllers
                     {
                         Semester = Convert.ToInt32(dr["Semester"].ToString()),
                         StartDate = Convert.ToDateTime(dr["StartDate"].ToString()),
-                        StudyName = dr["Name"].ToString()
                     });
                 }
 
@@ -99,10 +98,10 @@ namespace Cw3.Controllers
         public IActionResult UpdateStudent(int id)
         {
             //Pobranie rekordu z bazy danych o podanym id.
-            var student = new Student { IdStudent = id };
+            //var student = new Student { IdStudent = id };
 
             //Aktualizacja rekordu
-            student.FirstName = "Weronika";
+            //student.FirstName = "Weronika";
 
             //Zapis SaveChanges()
 
