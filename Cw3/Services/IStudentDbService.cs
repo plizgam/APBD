@@ -11,5 +11,6 @@ namespace Cw3.Services
     {
         IActionResult Index(Student student);
         IActionResult promotions(EnrollmentRequest enrollment);
+        bool checkIndex(string index);
     }
 }

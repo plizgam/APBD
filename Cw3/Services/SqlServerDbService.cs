@@ -13,6 +13,34 @@ namespace Cw3.Services
 
         public string ConnectionString = "Data source=db-mssql;Initial Catalog=s18536;Integrated Security=True";
 
+        public bool checkIndex(string index)
+        {
+            bool studentExist = false;
+
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+
+                comm.CommandText = "SELECT 1 FROM Student WHERE IndexNumber=@index";
+                comm.Parameters.AddWithValue("index", index);
+
+                var reader = comm.ExecuteReader();
+
+                if (reader.Read())
+                    studentExist = true;
+            }
+
+
+            return studentExist;
+        }
+
+
+
+
+
+
+
         public IActionResult Index(Student student)
         {
             if (!ModelState.IsValid)

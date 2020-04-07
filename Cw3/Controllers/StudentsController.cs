@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Cw3.Models;
-using Cw3.DAL;
+using Cw3.Services;
 using System.Data;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
@@ -17,9 +17,9 @@ namespace Cw3.Controllers
     public class StudentsController : ControllerBase
     {
         public string ConnectionString = "Data source=db-mssql;Initial Catalog=s18536;Integrated Security=True";
-        public readonly IDbService _dbService;
+        public readonly IStudentDbService _dbService;
 
-        public StudentsController(IDbService dbService)
+        public StudentsController(IStudentDbService dbService)
         {
             _dbService = dbService;
         }
