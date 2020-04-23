@@ -8,7 +8,11 @@ using Cw3.Services;
 using System.Data;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Cw3.Controllers
 {
@@ -18,13 +22,58 @@ namespace Cw3.Controllers
     {
         public string ConnectionString = "Data source=db-mssql;Initial Catalog=s18536;Integrated Security=True";
         public readonly IStudentDbService _dbService;
+        public IConfiguration _configuration;
 
-        public StudentsController(IStudentDbService dbService)
+
+        public StudentsController(IStudentDbService dbService, IConfiguration configuration)
         {
             _dbService = dbService;
+            _configuration = configuration;
         }
 
+
+        [HttpPost]
+        public IActionResult login(LoginRequestDto login)
+        {
+            var claims = new[]
+           {
+                new Claim(ClaimTypes.NameIdentifier, "1"),
+                new Claim(ClaimTypes.Name, "jan123"),
+                new Claim(ClaimTypes.Role, "admin")
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken
+            (
+                issuer: "Gakko",
+                audience: "Students",
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(10),
+                signingCredentials: creds
+            );
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                refreshToken = Guid.NewGuid()
+            });
+        }
+
+        [HttpPost("refresh-token/{token}")]
+        public IActionResult RefreshToken(string refToken)
+        {
+            
+            return Ok();
+        }
+
+
+
+
         [HttpGet]
+        [Authorize]
+
         public IActionResult GetStudents()
         {
             var students = new List<Student>();
@@ -87,7 +136,6 @@ namespace Cw3.Controllers
 
 
 
-        [HttpPost]
         public IActionResult CreateStudent(Student student)
         {
             student.IndexNumber = $"s{new Random().Next(1, 20000)}";
