@@ -33,13 +33,18 @@ namespace Cw3.Controllers
 
 
         [HttpPost]
-        public IActionResult login(LoginRequestDto login)
+        public IActionResult Login(LoginRequestDto login)
         {
+
+            //db check existing profile
+            if (!_dbService.AccountExist(login))
+                return StatusCode(401);
+
             var claims = new[]
            {
-                new Claim(ClaimTypes.NameIdentifier, "1"),
-                new Claim(ClaimTypes.Name, "jan123"),
-                new Claim(ClaimTypes.Role, "admin")
+                new Claim(ClaimTypes.NameIdentifier, login.User + "0101"),
+                new Claim(ClaimTypes.Name, login.User),
+                new Claim(ClaimTypes.Role, "employee")
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));
@@ -54,6 +59,9 @@ namespace Cw3.Controllers
                 signingCredentials: creds
             );
 
+
+
+
             return Ok(new
             {
                 token = new JwtSecurityTokenHandler().WriteToken(token),
@@ -64,107 +72,36 @@ namespace Cw3.Controllers
         [HttpPost("refresh-token/{token}")]
         public IActionResult RefreshToken(string refToken)
         {
-            
+            //check refresh token in db
+            //save to database token
+
+
+
             return Ok();
         }
 
-
-
-
-        [HttpGet]
-        [Authorize]
-
-        public IActionResult GetStudents()
+        [HttpPost]
+        [Authorize(Roles="employee")]
+        public IActionResult EnrollStudent(Student request)
         {
-            var students = new List<Student>();
-            
-            using(var con = new SqlConnection(ConnectionString))
-            using(var command = new SqlCommand())
-            {
-                command.Connection = con;
-                command.CommandText =
-                    "SELECT Student.FirstName, Student.LastName, Student.BirthDate, Studies.Name, Enrollment.Semester FROM Student, Studies, Enrollment WHERE Student.IdEnrollment = Enrollment.IdEnrollment AND Enrollment.IdStudy = Studies.IdStudy";
-
-                con.Open();
-
-                var dr = command.ExecuteReader();
-
-                while (dr.Read())
-                {
-                    students.Add(new Student
-                    {
-                        FirstName = dr["FirstName"].ToString(),
-                        LastName = dr["LastName"].ToString(),
-                        BirtDate = Convert.ToDateTime(dr["BirthDate"].ToString()),
-                        Studies = dr["Name"].ToString(),
-                        Semester = Convert.ToInt32(dr["Semester"].ToString())
-                    });
-                }
-
-            }
-            return Ok(students);
+            return _dbService.EnrollStudent(request);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetSemestersFromStudentId(string id)
+
+        [HttpPost]
+        [Authorize(Roles="employee")]
+        public IActionResult PromoteStudent(EnrollmentRequest request)
         {
-            var enrollments = new List<Enrollment>();
-            using (var con = new SqlConnection(ConnectionString))
-            using (var command = new SqlCommand())
-            {
-                command.Connection = con;
-                command.CommandText = "SELECT Enrollment.Semester, Enrollment.StartDate, Studies.Name FROM Enrollment, Student, Studies WHERE Student.IdEnrollment = Enrollment.IdEnrollment AND Enrollment.IdStudy = Studies.IdStudy AND Student.IndexNumber=@idStudent";
-                command.Parameters.AddWithValue("idStudent", id);
+            return _dbService.PromoteStudents(request);
+        }
 
-                con.Open();
-
-                var dr = command.ExecuteReader();
-
-                while (dr.Read())
-                {
-                    enrollments.Add(new Enrollment
-                    {
-                        Semester = Convert.ToInt32(dr["Semester"].ToString()),
-                        StartDate = Convert.ToDateTime(dr["StartDate"].ToString()),
-                    });
-                }
-
-            }
-            return Ok(enrollments);
+        [HttpPost]
+        public IActionResult RegisterAccount(LoginRequestDto request)
+        {
+            return _dbService.RegisterAccount(request);
         }
 
 
 
-
-        public IActionResult CreateStudent(Student student)
-        {
-            student.IndexNumber = $"s{new Random().Next(1, 20000)}";
-            return Ok(student);
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult UpdateStudent(int id)
-        {
-            //Pobranie rekordu z bazy danych o podanym id.
-            //var student = new Student { IdStudent = id };
-
-            //Aktualizacja rekordu
-            //student.FirstName = "Weronika";
-
-            //Zapis SaveChanges()
-
-            return Ok("Aktualizacja dokończona");
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult DeleteStudent(int id)
-        {
-            //Usunięcie rekordu z bazy danych o podanym id.
-
-            //Zapis SaveChanges()
-
-            return Ok("Usuwanie dokończone");
-        }
-        
     }
 }

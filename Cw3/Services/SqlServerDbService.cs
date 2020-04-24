@@ -1,9 +1,11 @@
 ﻿using Cw3.Models;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Cw3.Services
@@ -12,6 +14,8 @@ namespace Cw3.Services
     {
 
         public string ConnectionString = "Data source=db-mssql;Initial Catalog=s18536;Integrated Security=True";
+
+
 
         public bool checkIndex(string index)
         {
@@ -35,13 +39,36 @@ namespace Cw3.Services
             return studentExist;
         }
 
+        public bool AccountExist(Models.LoginRequestDto request)
+        {
+            bool studentExist = false;
+
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+
+                comm.CommandText = "SELECT 1 FROM Student WHERE IndexNumber=@index AND Password=@pass";
+                comm.Parameters.AddWithValue("index", request.User);
+                comm.Parameters.AddWithValue("pass", request.Password);
+
+
+                var reader = comm.ExecuteReader();
+
+                if (reader.Read())
+                    studentExist = true;
+            }
+
+
+            return studentExist;
+        }
 
 
 
 
 
 
-        public IActionResult Index(Student student)
+        public IActionResult EnrollStudent(Student student)
         {
             if (!ModelState.IsValid)
                 return StatusCode(400);
@@ -183,7 +210,7 @@ namespace Cw3.Services
             return StatusCode(201, myEnrollment);
         }
 
-        public IActionResult promotions(EnrollmentRequest enrollment)
+        public IActionResult PromoteStudents(EnrollmentRequest enrollment)
         {
             using (var con = new SqlConnection(ConnectionString))
             using (var comm = new SqlCommand("", con))
@@ -229,6 +256,52 @@ namespace Cw3.Services
 
 
             return StatusCode(201, newEnrollment);
+        }
+
+        public IActionResult LoginUpdate(LoginRequestDto request)
+        {
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+                comm.CommandText = "UPDATE Student SET Token = @token, Salt = @salt";
+                comm.Parameters.Add(new SqlParameter("@token", request.Token));
+                comm.Parameters.Add(new SqlParameter("@salt", request.Salt));
+
+                comm.ExecuteNonQuery();
+            }
+
+            return Ok();
+        }
+
+        public IActionResult RegisterAccount(LoginRequestDto data)
+        {
+
+            using(var con = new SqlConnection(ConnectionString))
+            using(var comm = new SqlCommand("", con))
+            {
+                con.Open();
+                comm.CommandText = "INSERT INTO Student(IndexNumber, Password) VALUES (@index, @pass)";
+                comm.Parameters.AddWithValue("index", data.User);
+                comm.Parameters.AddWithValue("pass", PasswordHash(data.Password));
+
+                comm.ExecuteNonQuery();
+            }
+
+
+            return Ok();
+        }
+
+        public static string PasswordHash(string value)
+        {
+            var valueBytes = KeyDerivation.Pbkdf2(
+                password: value,
+                salt: Encoding.UTF8.GetBytes(""),
+                prf: KeyDerivationPrf.HMACSHA512,
+                iterationCount: 10000,
+                numBytesRequested: 256 / 8);
+
+            return Convert.ToBase64String(valueBytes);
         }
     }
 }

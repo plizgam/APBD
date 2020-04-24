@@ -19,6 +19,8 @@ namespace Cw3.Models
         [Required]
         public string Studies { get; set; }
         public int Semester { get; set; }
-
+        public byte Password { get; set; }
+        public string token { get; set; }
+        public string salt { get; set; }
     }
 }

@@ -9,8 +9,11 @@ namespace Cw3.Services
 {
     public interface IStudentDbService
     {
-        IActionResult Index(Student student);
-        IActionResult promotions(EnrollmentRequest enrollment);
+        IActionResult EnrollStudent(Student student);
+        IActionResult PromoteStudents(EnrollmentRequest enrollment);
         bool checkIndex(string index);
+        bool AccountExist(LoginRequestDto request);
+        IActionResult LoginUpdate(LoginRequestDto request);
+        IActionResult RegisterAccount(LoginRequestDto data);
     }
 }
