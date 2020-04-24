@@ -15,5 +15,8 @@ namespace Cw3.Services
         bool AccountExist(LoginRequestDto request);
         IActionResult LoginUpdate(LoginRequestDto request);
         IActionResult RegisterAccount(LoginRequestDto data);
+        IActionResult SaveToken(LoginRequestDto data);
+        bool CheckToken(Guid data);
+        IActionResult UpdateToken(Guid data, Guid newToken);
     }
 }

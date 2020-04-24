@@ -60,24 +60,56 @@ namespace Cw3.Controllers
             );
 
 
+            var refreshToken = Guid.NewGuid();
+            login.Token = refreshToken;
+
+            _dbService.SaveToken(login);
 
 
             return Ok(new
             {
                 token = new JwtSecurityTokenHandler().WriteToken(token),
-                refreshToken = Guid.NewGuid()
+                refreshToken = refreshToken
             });
         }
 
         [HttpPost("refresh-token/{token}")]
         public IActionResult RefreshToken(string refToken)
         {
-            //check refresh token in db
-            //save to database token
+
+            if (!_dbService.CheckToken(Guid.Parse(refToken)))
+                return StatusCode(401);
 
 
+            var claims = new[]
+          {
+                new Claim(ClaimTypes.NameIdentifier, "ja0101"),
+                new Claim(ClaimTypes.Name, "user"),
+                new Claim(ClaimTypes.Role, "employee")
+            };
 
-            return Ok();
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken
+            (
+                issuer: "Gakko",
+                audience: "Students",
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(10),
+                signingCredentials: creds
+            );
+
+
+            var refreshToken = Guid.NewGuid();
+            _dbService.UpdateToken(Guid.Parse(refToken), refreshToken);
+
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                refreshToken = refToken
+            });
         }
 
         [HttpPost]

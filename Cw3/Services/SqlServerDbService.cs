@@ -277,8 +277,8 @@ namespace Cw3.Services
         public IActionResult RegisterAccount(LoginRequestDto data)
         {
 
-            using(var con = new SqlConnection(ConnectionString))
-            using(var comm = new SqlCommand("", con))
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
             {
                 con.Open();
                 comm.CommandText = "INSERT INTO Student(IndexNumber, Password) VALUES (@index, @pass)";
@@ -302,6 +302,62 @@ namespace Cw3.Services
                 numBytesRequested: 256 / 8);
 
             return Convert.ToBase64String(valueBytes);
+        }
+
+        public IActionResult SaveToken(LoginRequestDto data)
+        {
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+                comm.CommandText = "UPDATE Student SET Token=@token WHERE IndexNumber=@index";
+                comm.Parameters.AddWithValue("token", data.Token);
+                comm.Parameters.AddWithValue("index", data.User);
+
+                comm.ExecuteNonQuery();
+            }
+
+
+            return Ok();
+        }
+
+        public bool CheckToken(Guid data)
+        {
+            bool tokenExist = false;
+
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+
+                comm.CommandText = "SELECT 1 FROM Student WHERE Token=@token";
+                comm.Parameters.AddWithValue("token", data);
+
+                var reader = comm.ExecuteReader();
+
+                if (reader.Read())
+                    tokenExist = true;
+            }
+
+
+            return tokenExist;
+        }
+
+        public IActionResult UpdateToken(Guid data, Guid newToken)
+        {
+            using (var con = new SqlConnection(ConnectionString))
+            using (var comm = new SqlCommand("", con))
+            {
+                con.Open();
+                comm.CommandText = "UPDATE Student SET Token=@newToken WHERE Token=@oldToken";
+                comm.Parameters.AddWithValue("newToken", newToken);
+                comm.Parameters.AddWithValue("oldToken", data);
+
+                comm.ExecuteNonQuery();
+            }
+
+
+            return Ok();
         }
     }
 }
